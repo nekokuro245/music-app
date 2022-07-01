@@ -270,7 +270,7 @@ const app = {
 
         // Xử lý next song khi audio ended
         audio.onended = function () {
-            if (_this.isReapeat) {
+            if (_this.isRepeat) {
                 audio.play();
             } else {
                 nextBtn.click();
@@ -363,7 +363,7 @@ const app = {
         this.render();
 
         // Hiển thị trạng thái ban đầu của button repeat và random
-        randomBtn.classList.toggle('active', this.isRandom)
+        // randomBtn.classList.toggle('active', this.isRandom)
         repeatBtn.classList.toggle('active', this.isRepeat)
     }
 }
