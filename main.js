@@ -9,6 +9,10 @@
 *8. Active song
 *9. Scroll active song into view - Phương thức (sroll into view)
 *10. Play song  when clicked
+*11. Volume up and down
+*12. addList, removeList, updateList (backend) 
+*13. Account Manager, User (backend)
+*14. Upload mp3 to database
 */
 
 const $ = document.querySelector.bind(document)
@@ -364,7 +368,7 @@ const app = {
 
         // Hiển thị trạng thái ban đầu của button repeat và random
         // randomBtn.classList.toggle('active', this.isRandom)
-        repeatBtn.classList.toggle('active', this.isRepeat)
+        // repeatBtn.classList.toggle('active', this.isRepeat)
     }
 }
 
